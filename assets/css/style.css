@@ -1,0 +1,91 @@
+/* 4FAE5A backgroud */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito Sans', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.startscreen {
+    background-color: #4FAE5A;
+    color: #fff;
+    height: 100vh;
+    position: relative;
+}
+
+/* .background-start-image {
+    position: absolute;
+    z-index: 0;
+} */
+
+.background-start-image .coffe1-img{
+    position: absolute;
+    top: 34%; 
+    mix-blend-mode: normal;
+    z-index: 0;
+}
+
+.background-start-image .food-img {
+    position: absolute;
+    right: 0;
+    top: 22%; 
+    mix-blend-mode: normal;
+    z-index: 0;
+}
+
+.background-start-image .coffe2-img{
+    position: absolute;
+    bottom: 0; 
+    right: 0;
+    mix-blend-mode: normal;
+    z-index: 0;
+}
+
+.startlogo {
+    width: 100%;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 35%;
+}
+
+.motto {
+    width: 80%;
+    margin: auto;
+    font-size: 1.125em;
+}
+
+.motto hr {
+    width: 30%;
+    color: #fff;
+}
+
+.motto p {
+    font-size: 0.80em;
+}
+
+.start-button {
+    position: relative;
+    margin: auto;
+    width: 90%;
+    padding-top: 20%;
+}
+
+.start-button .start-btn {
+    font-size: 1.5em;
+    width: 100%;
+    height: 2.5em;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50px;
+    position: absolute;
+    border: none;
+    transition: color .8s, background-color .65s;
+}
+
+.start-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
