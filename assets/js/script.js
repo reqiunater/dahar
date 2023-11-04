@@ -14,3 +14,15 @@ startButton.onclick = function() {
     document.getElementById('hide').style.display="none";
     document.getElementById('daharStart2').style.display="inline";
 }
+
+function delay (URL) {
+    setTimeout( function() { window.location = URL }, 500 );
+}
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
