@@ -73,6 +73,9 @@ body {
     }
 } */
 
+.daharstart {
+    width: auto;
+}
 
 .background-start-image {
     overflow: hidden;
